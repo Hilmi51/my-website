@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  letter-spacing: 5px;
+  background-color: #fff;
+}
+
+img {
+  border-radius: 50%;
+  width: 350px;
+}
+
+
+h1 {
+  color: black;
+  border: 3px solid black;
+  box-shadow: 4px 4px 3px 3px #f0f0f0;
+  font-weight: bold;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 3rem;
+  margin: 10px 50px;
+}
+
+h4 {
+  color: rgb(63, 63, 63);
+  font-size: 2rem;
+  margin: 10px 50px;
+}
+
+.icons {
+  margin: 10px 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.ai {
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 3.5rem;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: .75rem;
+  margin-right: 1.25rem;
+}
+
+.ai:hover {
+  border-color: #686868;
+  box-shadow: 1px 1px #d4d4d4;
+}
+
+.profile-text {
+  margin: 0 40px;
+}
+
+.hire-me {
+  text-align: center;
+  padding: 10px;
+}
+
+.hire-me button {
+  color: white;
+  padding: 1rem;
+  border: none;
+  margin: 2rem;
+  background-color: #000000;
+  border-radius: 100px;
+}
+
+.hire-me button:hover {
+  background-color: #1a1a1a;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .profile img {
+    width: 250px;
+  }
+
+  .icons {
+    justify-content: center;
+
+  }
+
+  .profile-text h1 {
+    font-size: 2rem;
+  }
+
+  .profile-text h4 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
