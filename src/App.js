@@ -38,7 +38,7 @@ function App() {
           <h4>
             <span>BACKEND DEVELOPER</span>
           </h4>
-          <p className="icons">
+          <div className="icons">
             <a
               href="https://www.instagram.com/hilmi_safak/"
               target="_blank"
@@ -87,7 +87,7 @@ function App() {
             >
               <FontAwesomeIcon icon={faDiscord} />
             </a>
-          </p>
+          </div>
           <div className="hire-me">
             <button
               onClick={() =>
