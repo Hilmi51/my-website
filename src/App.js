@@ -9,8 +9,14 @@ import {
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import IconMoon from "./icons/moon";
+import IconSun from './icons/sun';
+import { useTheme } from "next-themes";
+
 
 function App() {
+  const { resolvedTheme, setTheme } = useTheme();
+
   return (
     <main className="container">
       <section className="profile">
@@ -22,6 +28,13 @@ function App() {
         />
         <div className="profile-text">
           <h1>HILMI SAFAK</h1>
+          {/* <button
+            className="flex my-0 sm:my-4"
+            onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+          >
+            {resolvedTheme === "dark" ? <IconSun /> : <IconMoon />}
+          </button> */}
+
           <h4>
             <span>BACKEND DEVELOPER</span>
           </h4>
