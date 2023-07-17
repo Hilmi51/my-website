@@ -79,14 +79,6 @@ function App() {
             >
               <FontAwesomeIcon icon={faYoutube} />
             </a>
-            <a
-              href="https://discord.gg/uJ3QJFjq5B"
-              target="_blank"
-              className="ai"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faDiscord} />
-            </a>
           </div>
           <div className="hire-me">
             <button
