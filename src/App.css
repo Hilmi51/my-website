@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url("./images/under-construction.gif") black no-repeat center center fixed;
+    background-size: 450px;
+}
