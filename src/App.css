@@ -1,9 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
 * {
     margin: 0;
     padding: 0;
 }
 
-html {
-    background: url("./images/under-construction.gif") black no-repeat center center fixed;
-    background-size: 450px;
+body {
+    font-family: Poppins, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    letter-spacing: 5px;
+    background-color: #2d2d2d;
+}
+
+img {
+    border: 3px solid #9ed23a;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+img:hover {
+    box-shadow: 0 0 3px 3px #9ed23a;
+}
+
+h1 {
+    color: #ffffff;
+    border: 2px solid #9ed23a;
+    box-shadow: 4px 4px 3px 3px #9ed23a;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px 50px;
+}
+
+h4 {
+    color: #9D9D9D;
+    font-size: 1.8rem;
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.icons {
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px 50px 10px 75px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.ai {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #9ed23a;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: .75rem;
+    margin-right: 1.25rem;
+}
+
+.ai:hover {
+    border-color: #ffffff;
+    box-shadow: 1px 1px #ffffff;
+}
+
+.profile-text {
+    margin: 0 40px;
+}
+
+.hire-me {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.hire-me button {
+    color: #000000;
+    font-weight: bold;
+    padding: 1.1rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    border: none;
+    background-color: #9ed23a;
+    border-radius: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hire-me button:hover {
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile-text {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .profile img {
+        align-items: center;
+        width: 250px;
+    }
+
+    .icons {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-text h1 {
+        margin-top: 1rem;
+        font-size: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-text h4 {
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+    }
 }
