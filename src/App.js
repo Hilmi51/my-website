@@ -18,7 +18,7 @@ function App() {
                     <h4><span>BACKEND DEVELOPER</span></h4>
                     <div className="icons">
                         <a
-                            href="https://www.instagram.com/hilmi_safak/"
+                            href="https://www.instagram.com/hilmi_safak.js/"
                             target="_blank"
                             className="i ai"
                             rel="noreferrer"
