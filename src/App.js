@@ -40,7 +40,7 @@ function App() {
           </h4>
           <div className="icons">
             <a
-              href=""
+              href="https://www.instagram.com/hilmi_safak/"
               target="_blank"
               className="i ai"
               rel="noreferrer"
