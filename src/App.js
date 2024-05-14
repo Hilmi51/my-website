@@ -33,7 +33,6 @@ function App() {
                         >
                             <FontAwesomeIcon icon={faLinkedin}/>
                         </a>
-                        /* href="https://twitter.com/Hilmi511" */
                         <a
                             target="_blank"
                             className="i ai"
