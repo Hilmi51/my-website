@@ -47,8 +47,8 @@ function App() {
             >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
+            /* href="https://twitter.com/Hilmi511" */
             <a
-              href="https://twitter.com/Hilmi511"
               target="_blank"
               className="i ai"
               rel="noreferrer"
