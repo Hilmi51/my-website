@@ -48,6 +48,7 @@ function App() {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a
+              href="https://x.com/hilmi_safak/"
               target="_blank"
               className="i ai"
               rel="noreferrer"
@@ -82,7 +83,7 @@ function App() {
           <div className="hire-me">
             <button
               onClick={() =>
-                (window.location = "mailto:hilmisafak.info@gmail.com")
+                (window.location = "mailto:hilmisafak1@gmail.com")
               }
               target="_blank"
             >
